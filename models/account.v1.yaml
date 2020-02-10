@@ -1,0 +1,17 @@
+title: account
+type: object
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  status:
+    type: string
+  type:
+    type: string
+  subType:
+    type: string
+  size:
+    type: string
+  '':
+    type: string

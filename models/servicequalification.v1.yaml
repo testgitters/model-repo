@@ -1,0 +1,19 @@
+title: serviceQualification
+type: object
+properties:
+  id:
+    type: string
+  externalId:
+    type: string
+  context:
+    type: string
+  qualificationResult:
+    type: string
+  serviceQualficationItems:
+    type: array
+    items:
+      $ref: ./qualificationitem.v1.yaml
+  effectiveQualificationDate:
+    type: string
+  expirationDate:
+    type: string

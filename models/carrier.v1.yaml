@@ -1,0 +1,19 @@
+title: carrier
+type: object
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  status:
+    type: string
+  market:
+    $ref: ./market.v1.yaml
+  networkSpecification:
+    type: array
+    items:
+      $ref: ./specification.v1.yaml
+  networkCharacteristics:
+    type: array
+    items:
+      $ref: ./characteristics.v1.yaml

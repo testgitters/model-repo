@@ -1,0 +1,13 @@
+title: validFor
+type: object
+properties:
+  id:
+    type: string
+  startDate:
+    type: string
+  endDate:
+    type: string
+  startDateTime:
+    type: string
+  endDateTime:
+    type: string

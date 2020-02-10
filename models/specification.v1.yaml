@@ -1,0 +1,39 @@
+title: specification
+type: object
+properties:
+  id:
+    type: string
+  deviceType:
+    type: string
+  technology:
+    type: string
+  technologyGroup:
+    type: string
+  partClass:
+    type: string
+  partNumber:
+    type: string
+  isSimRequired:
+    type: string
+  simSize:
+    type: string
+  make:
+    type: string
+  model:
+    type: string
+  generation:
+    type: string
+  hexSerialNumber:
+    type: string
+  brand:
+    type: string
+  universalPlanId:
+    type: string
+  planData:
+    type: string
+  serviceDays:
+    type: string
+  psuedo:
+    type: string
+  firmware:
+    type: string

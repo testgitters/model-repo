@@ -1,0 +1,9 @@
+title: characteristics
+type: object
+properties:
+  id:
+    type: string
+  name:
+    type: string
+  value:
+    type: string

@@ -1,0 +1,19 @@
+title: QualificationItem
+type: object
+x-tags:
+  - qualification
+properties:
+  id:
+    type: string
+  qualificationResult:
+    type: string
+  location:
+    $ref: ./location.v1.yaml
+  serviceSpecification:
+    $ref: ./specification.v1.yaml
+  serviceCharacteristics:
+    $ref: ./characteristics.v1.yaml
+  relatedResources:
+    type: array
+    items:
+      $ref: ./resource.v1.yaml

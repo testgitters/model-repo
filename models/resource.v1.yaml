@@ -1,0 +1,25 @@
+title: resource
+type: object
+properties:
+  id:
+    type: string
+  type:
+    type: string
+  resourceCategory:
+    type: string
+  serialNumber:
+    type: string
+  status:
+    type: string
+  carrier:
+    $ref: ./carrier.v1.yaml
+  specifications:
+    $ref: ./specification.v1.yaml
+  characteristics:
+    $ref: ./characteristics.v1.yaml
+  validFor:
+    $ref: ./validfor.v1.yaml
+  relatedAccount:
+    $ref: ./account.v1.yaml
+  name:
+    type: string
