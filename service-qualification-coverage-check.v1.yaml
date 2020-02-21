@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: service-qualification-mgmt
+  version: '1.0'
+  contact:
+    name: Sadhasivam Angamuthu
+    email: SAngamuthu@Tracfone.com
+  description: "Evaluates the qualification of the customer, customer's information against the service to be provisioned  "
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /coverage-check:
+    post:
+      summary: ''
+      operationId: post-coverage-check
+      responses:
+        '200':
+          description: OK
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: ./models/servicequalification.v1.yaml
+      description: 'The service qualification management offers various APIs for customers to validate their device/service before submitting the order. This allows customer to resolve the issues and increase the success ratio for submitted orders.  '
+      requestBody:
+        description: ''
+        content:
+          application/json:
+            schema:
+              $ref: ./models/servicequalification.v1.yaml
+components:
+  schemas: {}
